@@ -26,5 +26,6 @@ go get github.com/zheng-ji/discover-etcd
 Example
 ----------------
 
-[Service Discovery Link](https://github.com/zheng-ji/discover-etcd/blob/master/example/service_discovery_example.go)
-[Service Register Link](https://github.com/zheng-ji/discover-etcd/blob/master/example/service_regiser_example.go)
+* [Service Discovery Link](https://github.com/zheng-ji/discover-etcd/blob/master/example/service_discovery_example.go)
+
+* [Service Register Link](https://github.com/zheng-ji/discover-etcd/blob/master/example/service_regiser_example.go)
