@@ -23,17 +23,8 @@ Quick-start
 go get github.com/zheng-ji/discover-etcd
 ```
 
-```
-# 服务注册端
+Example
+----------------
 
-```
-example/service_register_example.go
-``
-
-```
-
-# 服务发现端
-
-```
-example/service_discovery_example.go
-``
+[Service Discovery Link](https://github.com/zheng-ji/discover-etcd/blob/master/example/service_discovery_example.go)
+[Service Register Link](https://github.com/zheng-ji/discover-etcd/blob/master/example/service_regiser_example.go)
