@@ -1,7 +1,9 @@
 Introduction
 =======
 
-discover-etcd implement service discovery based on etcd
+[![Build Status](https://travis-ci.org/zheng-ji/discover-etcd.svg)](https://travis-ci.org/zheng-ji/discover-etcd)
+
+Implement service discovery based on etcd By Go
 
 Quick Start Etcd
 -----------------
