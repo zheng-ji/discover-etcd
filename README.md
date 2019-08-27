@@ -53,7 +53,8 @@ func main() {
 
 	for {
 		m.Nodes.Range(func(k, v interface{}) bool {
-			fmt.Printf("node:%s, ip=%s ext=%s\n", k, v.(*etcd.Node).Meta.IP, v.(*etcd.Node).Meta.Ext)
+			fmt.Printf("node:%s, ip=%s ext=%s\n",
+                k, v.(*etcd.Node).Meta.IP, v.(*etcd.Node).Meta.Ext)
 			return true
 		})
 		time.Sleep(time.Second * 5)
@@ -75,7 +76,7 @@ import (
 func main() {
 
 	serviceName := "s-test"
-	serviceInfo := etcd.ServiceMeta{IP: "127.0.0.1", Ext: "test"}
+	serviceInfo := etcd.ServiceMeta{IP: "127.0.0.1", Ext: "Your Custome Data"} 
 	s, err := etcd.Register(serviceName, serviceInfo, []string{
 		"http://127.0.0.1:12379",
 		"http://127.0.0.1:22379",
